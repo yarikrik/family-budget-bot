@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {"kind": "expense", "name": "Продукти",   "emoji": "🛒", "limit": 14000, "keywords": ["атб", "сільпо", "novus", "фора", "продукти", "хліб", "молоко", "м'ясо"]},
+    {"kind": "expense", "name": "Кафе",       "emoji": "☕", "limit": 3000,  "keywords": ["кава", "кафе", "ресторан", "піца", "суші", "обід", "макдональдс"]},
+    {"kind": "expense", "name": "Транспорт",  "emoji": "🚕", "limit": 2500,  "keywords": ["таксі", "bolt", "uklon", "бензин", "заправка", "метро", "маршрутка", "проїзд"]},
+    {"kind": "expense", "name": "Комунальні", "emoji": "💡", "keywords": ["світло", "газ", "вода", "квартплата", "комуналка"]},
+    {"kind": "expense", "name": "Зв'язок",    "emoji": "📱", "keywords": ["інтернет", "мобільний", "київстар", "vodafone", "lifecell"]},
+    {"kind": "expense", "name": "Здоров'я",   "emoji": "💊", "limit": 2000,  "keywords": ["аптека", "ліки", "лікар", "аналізи", "стоматолог"]},
+    {"kind": "expense", "name": "Діти",       "emoji": "🧸", "keywords": ["садок", "садочок", "школа", "іграшки", "гурток"]},
+    {"kind": "expense", "name": "Дім",        "emoji": "🏠", "keywords": ["епіцентр", "побутова", "ремонт", "посуд"]},
+    {"kind": "expense", "name": "Одяг",       "emoji": "👕", "keywords": ["одяг", "взуття", "куртка"]},
+    {"kind": "expense", "name": "Розваги",    "emoji": "🎬", "limit": 2000,  "keywords": ["кіно", "netflix", "youtube", "концерт", "ігри"]},
+    {"kind": "expense", "name": "Інше",       "emoji": "📦"},
+    {"kind": "income",  "name": "Зарплата",   "emoji": "💼"},
+    {"kind": "income",  "name": "Підробіток", "emoji": "💻"},
+    {"kind": "income",  "name": "Подарунки",  "emoji": "🎁"},
+    {"kind": "income",  "name": "Інше",       "emoji": "💰"}
+  ],
+  "recurring": [
+    {"name": "Садочок",           "amount": 1800, "day": 1,  "category": "Діти"},
+    {"name": "Інтернет",          "amount": 250,  "day": 5,  "category": "Зв'язок"},
+    {"name": "Мобільний зв'язок", "amount": 450,  "day": 10, "category": "Зв'язок"},
+    {"name": "Комуналка",         "amount": 2600, "day": 20, "category": "Комунальні"},
+    {"name": "Netflix",           "amount": 279,  "day": 28, "category": "Розваги"}
+  ]
+}

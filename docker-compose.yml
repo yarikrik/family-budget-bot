@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data          # база SQLite і credentials.json для Google
+    restart: unless-stopped
